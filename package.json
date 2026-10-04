@@ -1,0 +1,19 @@
+{
+  "name": "agent-tool-map",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A source-backed field guide and dependency-free CLI for small tools that help AI agents work.",
+  "type": "module",
+  "repository": { "type": "git", "url": "https://github.com/bm1016bm-svg/agent-tool-map.git" },
+  "bugs": { "url": "https://github.com/bm1016bm-svg/agent-tool-map/issues" },
+  "keywords": ["ai-agents", "cli", "developer-tools", "tool-selection", "bilingual"],
+  "engines": { "node": ">=22" },
+  "bin": { "agent-tool-map": "bin/agent-tool-map.mjs" },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node bin/agent-tool-map.mjs validate",
+    "docs": "node scripts/build-readme.mjs",
+    "docs:check": "node scripts/build-readme.mjs --check"
+  },
+  "license": "MIT"
+}
